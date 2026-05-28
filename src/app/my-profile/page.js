@@ -17,7 +17,7 @@ export default function MyProfilePage() {
         <h2 className="text-2xl font-black text-gray-800">{session.user.name}</h2>
         <p className="text-gray-500 text-sm break-all">{session.user.email}</p>
         
-        {/* ⚙️ এই বাটনে ক্লিক করলে আলাদা আপডেট রাউটে নিয়ে যাবে */}
+        
         <Link href="/my-profile/update">
           <button className="w-full mt-4 bg-orange-500 hover:bg-orange-600 text-white py-2.5 rounded-xl font-bold transition">
             Update Information ⚙️
