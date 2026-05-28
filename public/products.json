@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "name": "UV Protection Sunglasses",
+    "brand": "SunShade",
+    "price": 15,
+    "rating": 4.7,
+    "stock": 10,
+    "description": "Stylish UV protection sunglasses perfect for summer outings.",
+    "image": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?q=80&w=500",
+    "category": "Accessories"
+  },
+  {
+    "id": 2,
+    "name": "Coconut Hydrating Sunscreen",
+    "brand": "SkinGlow",
+    "price": 22,
+    "rating": 4.9,
+    "stock": 15,
+    "description": "Broad-spectrum SPF 50 sunscreen infused with natural coconut water.",
+    "image": "https://images.unsplash.com/photo-1556229174-5e42a09e45af?q=80&w=500",
+    "category": "Skincare"
+  },
+  {
+    "id": 3,
+    "name": "Tropical Summer Beach Shirt",
+    "brand": "Breeze",
+    "price": 28,
+    "rating": 4.5,
+    "stock": 8,
+    "description": "Lightweight and breathable cotton shirt with vibrant tropical prints.",
+    "image": "https://images.unsplash.com/photo-1578932750294-f5075e85f44a?q=80&w=500",
+    "category": "Clothing"
+  },
+  {
+    "id": 4,
+    "name": "Waterproof Beach Tote Bag",
+    "brand": "OceanPack",
+    "price": 18,
+    "rating": 4.6,
+    "stock": 12,
+    "description": "Spacious and durable tote bag to carry all your beach essentials safely.",
+    "image": "https://images.unsplash.com/photo-1532453288672-3a27e9be9efd?q=80&w=500",
+    "category": "Accessories"
+  },
+  {
+    "id": 5,
+    "name": "Insulated Stainless Water Bottle",
+    "brand": "HydroChill",
+    "price": 25,
+    "rating": 4.8,
+    "stock": 20,
+    "description": "Keeps your drinks ice-cold up to 24 hours even in hot summer days.",
+    "image": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?q=80&w=500",
+    "category": "Essentials"
+  },
+  {
+    "id": 6,
+    "name": "Wide Brim Straw Sun Hat",
+    "brand": "Sombrero",
+    "price": 19,
+    "rating": 4.4,
+    "stock": 5,
+    "description": "Classic woven straw hat offering excellent sun shade for face and neck.",
+    "image": "https://images.unsplash.com/photo-1565839336154-150616da7189?q=80&w=500",
+    "category": "Clothing"
+  }
+]
