@@ -1,8 +1,14 @@
 import { betterAuth } from "better-auth";
-import Database from "better-sqlite3";
+import { createClient } from "@libsql/client";
 
 export const auth = betterAuth({
-    database: new Database("./dev.db"),
+    database: {
+        db: createClient({
+            url: process.env.TURSO_DATABASE_URL,
+            authToken: process.env.TURSO_AUTH_TOKEN,
+        }),
+        type: "sqlite",
+    },
     emailAndPassword: {
         enabled: true
     },
