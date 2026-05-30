@@ -31,3 +31,6 @@ A modern summer eCommerce platform where users can explore and purchase seasonal
 - `react-icons` - Icons
 - `tailwindcss` - CSS Framework
 - `daisyui` - UI Components
+
+## Author
+Developed by Jannat
