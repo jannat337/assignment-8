@@ -1,15 +1,14 @@
 "use client";
-import { useSession } from "@/lib/auth-client";
+import { authClient } from "@/lib/auth-client";
 import { useRouter, useParams } from "next/navigation";
 import { useEffect } from "react";
 import 'animate.css';
 
 export default function ProductDetailsPage() {
-  const { data: session, isPending } = useSession();
+  const { data: session, isPending } = authClient.useSession();
   const router = useRouter();
   const { id } = useParams();
 
-  // 🔒 লগইন না থাকলে কারেন্ট ইউআরএল মনে রেখে লগইন পেজে পাঠানো
   useEffect(() => {
     if (!isPending && !session) {
       router.push(`/login?callbackUrl=/products/${id}`);
